@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+
+}
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+
+.node text {
+    font: 12px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+.svgBody{
+    width: 100%;
+    transition: all 0.3s;
+    background-color: #fff;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+   /* border: 3px solid #add8e6;*/
+}
+
+#code{
+    margin-left: 50px;
+}
